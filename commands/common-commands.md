@@ -1,6 +1,7 @@
 # Common Commands
 These are a list of some common, useful linux commands used in basic CTF challenges. I've compiled them mostly from playing Bandit - OverTheWire puzzles.
 
+
 ## man
 Displays the manual/help page for any command.
 
@@ -10,6 +11,7 @@ Displays the manual/help page for any command.
 
 ### Example
 `man grep`
+
 
 
 ## du
@@ -23,6 +25,7 @@ Shows disk usage of files and directories.
 ### Tips
 - Can be used to find which files are the largest or taking up the most space.
 - Can be used with sort to sort the files in terms of size.
+
 
 
 ## find
@@ -42,6 +45,7 @@ Searches for files and directories recursively (goes into directories).
 - Can refer to cheatsheets to see other flags and variations.
 
 
+
 ## grep
 Search for lines that match a pattern in the files or output. By output, it means we can use pipelines to search the output of another command. For example, we could search for a user by running ls -l to get all the info and searching the username.
 
@@ -56,6 +60,7 @@ Search for lines that match a pattern in the files or output. By output, it mean
 - Can be used to search for flags in CTFs.
 
 
+
 ## sort
 Sorts lines in a file alphabetically by default.
 
@@ -68,6 +73,7 @@ Sorts lines in a file alphabetically by default.
 - Can be used with other commands to sort by columns or other specifications.
 
 
+
 ## uniq
 Removes **adjacent** duplicates lines from input.
 
@@ -76,6 +82,7 @@ Removes **adjacent** duplicates lines from input.
 
 ### Tips
 - Must sort before using or it won't work. Only identifies adjacent duplicates.
+
 
 
 ## strings
