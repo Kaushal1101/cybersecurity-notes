@@ -1,6 +1,7 @@
 # Common Commands
 These are a list of some common, useful linux commands used in basic CTF challenges. I've compiled them mostly from playing Bandit - OverTheWire puzzles.
-<br>
+
+
 
 ## man
 Displays the manual/help page for any command.
@@ -12,7 +13,7 @@ Displays the manual/help page for any command.
 ### Example
 `man grep`
 
-<br>
+
 
 ## du
 Shows disk usage of files and directories.
