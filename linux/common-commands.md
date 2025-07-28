@@ -1,5 +1,3 @@
-
-
 ### Common Commands
 These are a list of some common, useful linux commands used in basic CTF challenges. I've compiled them mostly from playing Bandit - OverTheWire puzzles.
 
